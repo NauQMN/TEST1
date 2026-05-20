@@ -53,7 +53,7 @@ public class WorkSchedulePanel extends JPanel {
                 "tabHeight: 42; tabArc: 12;");
 
         tabs.addTab("📋  Quản lý phân ca", buildTab1());
-        tabs.addTab("✅  Duyệt lịch nhân viên", buildTab2());
+        tabs.addTab("✅  Duyệt lịch nhân viên.", buildTab2());
 
         // Khi chuyển sang tab duyệt → tải lại danh sách
         tabs.addChangeListener(e -> {
